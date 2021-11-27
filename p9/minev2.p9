@@ -1,0 +1,8 @@
+set(arithmetic).
+assign(max_models, -1).
+assign(domain_size, 10).
+
+formulas(assumptions).
+all x s(x) = x + 1.
+s(3) = 3.
+end_of_list.
